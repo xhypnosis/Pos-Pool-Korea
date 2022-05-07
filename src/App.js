@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Layout className="layout">
           {/* <div className="flex flex-col h-full relative overflow-x-hidden"> hypnos*/}
-          <div className="flex flex-col h-[900px] relative overflow-x-hidden bg-cuanmax bg-no-repeat bg-top" style={{ backgroudSize: "1920px 348px" }}>
+          <div className="flex flex-col h-[900px] relative overflow-x-hidden bg-block bg-no-repeat bg-top" style={{ backgroudSize: "1920px 348px" }}>
             <Header />
             {/* <Content style={{ padding: "50px 50px",backgroundColor:'#2d3344' }}> hypnos */}
             <Content style={{ marginTop: "150px", backgroundColor: 'transparent' }}>
@@ -33,7 +33,7 @@ function App() {
                   <Route path="*" element={<Navigate to="pool-manage"/>} /> hypnos*/}
                   <Route path="pool/core/:poolAddress" element={<Pool />} />
                   <Route path="pool/e-space/:poolAddress" element={<Pool />} />
-                  <Route path="/" element={<Navigate to="pool/core/0x874b44da0addd8acfbe018f82aab741b57e176f5"/>} />
+                  <Route path="/" element={<Navigate to="pool/core/0x8de1a4b31fbc71b761320bf677ca3e70c2298d0a"/>} />
                 </Routes>
               </div>
             </Content>
